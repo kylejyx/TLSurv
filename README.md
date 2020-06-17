@@ -1,9 +1,10 @@
 # TTSurv
 
 Paper link:
+
 For questions or comments, please feel free to contact jiang@u.nus.edu. 
 
-#Instructions for using TTSurv(MAE)
+Instructions for using TTSurv(MAE)
 Please replace "<env>" with the actual environment name.
 Please replace "<mod>" with the actual modality name such as "cnv mirna" or "mrna None"
 Please replace "[list of hyper-parameters]" with relevant hyper-parameters or list of candidate hyper-parameters such as "25 [0.1,0.2] 64". Please ensure there is no space in any hyper-parameter. 
