@@ -154,8 +154,8 @@ def main(mod1, mod2, epochs, dropout, learning_rates, batch_size):
                         model, log = Coxnnet_pipeline(mod1, mod2, x1_train, x2_train, y1_train, y2_train, hyperparameters, True, PATH)
                         a_time = time.time()
                         print(f'Training time: {a_time-p_time}')
-                        Cindex, C2 = Coxnnet_evaluate(model, x1_test, x2_test, y1_test, y2_test)
-                        print(f"Test C-index: {Cindex}, {C2}")
+                        Cindex = Coxnnet_evaluate(model, x1_test, x2_test, y1_test, y2_test)
+                        print(f"Test C-index: {Cindex}")
                         
                         gc.collect()
                         sys.stdout.close()
