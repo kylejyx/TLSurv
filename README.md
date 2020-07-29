@@ -1,10 +1,10 @@
-# TTSurv
+# TLSurv
 
-Paper link: [Link](doi.org)
+Paper link: [Link](https://doi.org/10.1145/3388440.3412422)
 
 For questions or comments, please feel free to contact jiang@u.nus.edu. 
 
-## Instructions for using TTSurv(MAE)
+## Instructions for using TLSurv(MAE)
 
 Please replace "\<env\>" with the actual environment name.  
 Please replace "\<mod\>" with the actual modality name such as "cnv mirna" or "mrna None".  
@@ -21,7 +21,7 @@ Step 8. Rename the relevant state files and dict files for third stage
 Step 9. Train the survival network using "Surv_MAESurv.py \<mod\> [list of hyper-parameters]"  
 Step 10. Collect results from log file folder by "python collect_results.py MAESurv"  
 
-## Instructions for using TTSurv(VAE)
+## Instructions for using TLSurv(VAE)
 
 Please replace "\<env\>" with the actual environment name.  
 Please replace "\<mod\>" with the actual modality name such as "cnv mirna" or "mrna None".  
